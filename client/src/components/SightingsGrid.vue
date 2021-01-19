@@ -6,6 +6,8 @@
 
 <script>
 import Sighting from './Sighting';
+import SightingService from '@/services/SightingService.js'
+import {eventBus} from '@/main.js'
 
 export default {
 	name: 'sightings-grid',
